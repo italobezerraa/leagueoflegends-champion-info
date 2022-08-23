@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/lol_icon.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>League of Legends</title>
+</head>
+<body>
+    <div id="container">
+        <h2>League of Legends Champion Info</h2>
+        <div id="container-content">
+            <input type="text" id="champion-input" placeholder="Escreva o nome de um campeão aqui...">
+            <button id="btn">Enviar</button>
+        </div>
+        <div id="champion-list">VEJA AQUI A LISTA DE CAMPEÕES
+            <img id="image-list" src="images/champion-list.png">
+        </div>
+    </div>
+    <div id="champion-container">
+        <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Swain_0.jpg" id="champion-img">
+        <div id="champion-description">
+            <h4>Nome:</h4>
+            <p id="champion-name"></p>
+            <h4>Lore:</h4>
+            <p id="champion-lore"></p>
+            <h4>Tradução:</h4>
+            <p id="champion-lore-translate"></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/translate@1/translate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

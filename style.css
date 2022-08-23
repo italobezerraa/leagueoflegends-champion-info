@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15141b;
+}
+
+#container {
+    background-color: #fff;
+    margin: auto;
+    width: 600px;
+    height: 85px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#container-content {
+    display: flex;
+}
+
+#champion-input, #btn {
+    height: 25px;
+    border-radius: 5px solid;
+    margin: 5px;
+}
+
+#champion-input {
+    width: 80%;
+}
+
+#btn {
+    width: 20%;
+}
+
+#champion-container {
+    color: #fff;
+    margin: auto;
+    background-color: black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+#champion-img {
+    width: 200px;
+}
+
+#champion-description {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#champion-lore, #champion-lore-translate {
+    font-size: 13px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+#champion-name, #champion-lore, #champion-lore-translate {
+    color: 	#61ffca;
+}
+
+#champion-list {
+    text-align: center;
+    width: 200px;
+    height: 19px;
+    margin-left: 5px;
+    padding-top: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+    border: 2px solid #15141b;
+    background-color: #15141b;
+    color: #61ffca;
+}
+
+#image-list {
+    position: absolute;
+    visibility: hidden;
+}
+
+#champion-list:hover #image-list {
+    visibility: visible;
+}
