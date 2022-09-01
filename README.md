@@ -1,6 +1,6 @@
 # leagueoflegends-champion-info
 
-https://lucky-pixie-d33a6a.netlify.app/
+https://leagueoflegends-champion-info.netlify.app/
 
 Comandos para rodar o projeto
 
