@@ -15,9 +15,8 @@ async function startRequest () {
     const championInput = document.querySelector('#champion-input').value
     const champion = titleCase(championInput)
     alert(champion)
-    const url = `http://ddragon.leagueoflegends.com/cdn/12.15.1/data/en_US/champion/${champion}.json`;
-    const answer = await axios.get(url);
-    const name = answer.data.data
+    const response = await axios.get(`http://ddragon.leagueoflegends.com/cdn/12.15.1/data/en_US/champion/${champion}.json`)
+    const name = response.data.data
 
     let loreReturn;
     for (const key in name) {
