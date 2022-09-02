@@ -32,6 +32,7 @@ async function startRequest () {
   } catch (error) {
     alert('Nome de campeão não encontrado!');
     alert(error)
+    console.log(error);
   }
 }
 
